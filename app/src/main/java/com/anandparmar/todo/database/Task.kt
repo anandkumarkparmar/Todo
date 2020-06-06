@@ -10,6 +10,9 @@ data class Task(
     @ColumnInfo(name = "task_id")
     var taskId: Long = 0L,
 
+    @ColumnInfo(name = "task_details")
+    var taskDetails: String,
+
     @ColumnInfo(name = "notify_time_milli")
     var notifyTimeInMillis: Long? = null,
 

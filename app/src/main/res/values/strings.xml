@@ -10,7 +10,9 @@
     <string name="menu_home">@string/app_name</string>
     <string name="menu_gallery">Logout</string>
 
+    <string name="create_task">Create a Task</string>
     <string name="completed_all_tasks">You have completed all your tasks.</string>
     <string name="task">Task</string>
     <string name="do_you_want_to_set_a_reminder">Do you want to set a reminder?</string>
+    <string name="save">Save</string>
 </resources>
