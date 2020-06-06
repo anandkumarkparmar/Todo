@@ -2,8 +2,8 @@
     <string name="app_name">Todo</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">Unknown User</string>
+    <string name="nav_header_subtitle">unknown@gmail.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
@@ -15,4 +15,5 @@
     <string name="task">Task</string>
     <string name="do_you_want_to_set_a_reminder">Do you want to set a reminder?</string>
     <string name="save">Save</string>
+    <string name="todo_app">Todo App</string>
 </resources>
