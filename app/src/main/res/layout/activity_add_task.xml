@@ -49,6 +49,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/dateAndTimeET"
                 android:layout_width="match_parent"
+                android:focusable="false"
                 android:layout_height="48dp"
                 android:imeOptions="actionDone" />
 

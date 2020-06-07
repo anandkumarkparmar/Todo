@@ -48,12 +48,7 @@ class TaskViewModel(private val app: Application) : AndroidViewModel(app) {
             PendingIntent.FLAG_UPDATE_CURRENT
         )
 
-        AlarmManagerCompat.setExactAndAllowWhileIdle(
-            alarmManager,
-            AlarmManager.ELAPSED_REALTIME_WAKEUP,
-            notifyTimeInMillis,
-            notifyPendingIntent
-        )
+        alarmManager.setWindow(AlarmManager.RTC_WAKEUP, notifyTimeInMillis, 1000, notifyPendingIntent)
     }
 
     fun completeATask(taskId: Long) {
