@@ -16,4 +16,10 @@
     <string name="do_you_want_to_set_a_reminder">Do you want to set a reminder?</string>
     <string name="save">Save</string>
     <string name="todo_app">Todo App</string>
+
+    <string name="task_notification_channel_id" translatable="false">task_channel</string>
+    <string name="task_notification_channel_name" translatable="true">Task</string>
+    <string name="task_notification_channel_description" translatable="true">Task Reminder Notifications</string>
+    <string name="notification_title">Task Due</string>
+    <string name="task_completed">Done</string>
 </resources>

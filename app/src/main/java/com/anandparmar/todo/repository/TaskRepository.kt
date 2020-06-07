@@ -8,8 +8,8 @@ import kotlinx.coroutines.withContext
 
 class TaskRepository(private val database: TodoDatabase) {
 
-    suspend fun insertTask(task: Task) {
-        withContext(Dispatchers.IO) {
+    suspend fun insertTask(task: Task): Long {
+        return withContext(Dispatchers.IO) {
             database.taskDao.insert(task)
         }
     }
